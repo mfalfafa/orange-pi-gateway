@@ -1,0 +1,24 @@
+hostapd_start.sh 2019-06-26 16:58:29 Starting hostpad
+Configuration file: /etc/hostapd.conf
+nl80211: Could not configure driver mode
+nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+nl80211 driver initialization failed.
+wlan0: interface state UNINITIALIZED->DISABLED
+wlan0: AP-DISABLED 
+wlan0: CTRL-EVENT-TERMINATING 
+hostapd_free_hapd_data: Interface wlan0 wasn't started
+hostapd_start.sh 2019-06-26 16:58:30 Starting hostpad FAILED
+hostapd_start.sh 2019-06-26 16:58:43 Checking hostpad...
+hostapd_start.sh 2019-06-26 16:58:43 hostpad is not running
+hostapd_start.sh 2019-06-26 16:58:51 Starting hostpad
+Configuration file: /etc/hostapd.conf
+nl80211: Could not configure driver mode
+nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+nl80211 driver initialization failed.
+wlan0: interface state UNINITIALIZED->DISABLED
+wlan0: AP-DISABLED 
+wlan0: CTRL-EVENT-TERMINATING 
+hostapd_free_hapd_data: Interface wlan0 wasn't started
+hostapd_start.sh 2019-06-26 16:58:52 Starting hostpad FAILED
+hostapd_start.sh 2019-06-26 16:59:01 Checking hostpad...
+hostapd_start.sh 2019-06-26 16:59:01 hostpad is not running

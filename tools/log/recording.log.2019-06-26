@@ -1,0 +1,181 @@
+recording_control 2019-06-26 11:09:04 Begin Cloud Recording
+ftp_server=103.107.100.4
+ftp_port=2212
+ftp_user=ihsmart_cam
+ftp_pass=p1n$20!8#
+ftp_dest_folder=./
+file_src_folder=/tools/recording/
+FTP started
+FTP wait
+execute 1521711340000
+execute ADD 192.168.89.182 60 10 10 377
+IpCamera start 192.168.89.182 60 10 10
+execute done
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626110904.mp4
+execute.sh 2019-06-26 11:09:05 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626110904.mp4
+execute.sh 2019-06-26 11:10:05 finish
+upload FTP 377_192_168_89_182_20190626110904.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626111005.mp4
+execute.sh 2019-06-26 11:10:05 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626111005.mp4
+Failed to delete the file
+FTP wait
+execute.sh 2019-06-26 11:11:05 finish
+upload FTP 377_192_168_89_182_20190626111005.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626111105.mp4
+execute.sh 2019-06-26 11:11:05 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626111105.mp4
+Failed to delete the file
+FTP wait
+execute.sh 2019-06-26 11:12:05 finish
+upload FTP 377_192_168_89_182_20190626111105.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626111205.mp4
+execute.sh 2019-06-26 11:12:05 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626111205.mp4
+Failed to delete the file
+FTP wait
+execute.sh 2019-06-26 11:13:05 finish
+upload FTP 377_192_168_89_182_20190626111205.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626111305.mp4
+execute.sh 2019-06-26 11:13:05 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626111305.mp4
+Failed to delete the file
+FTP wait
+execute.sh 2019-06-26 11:14:05 finish
+upload FTP 377_192_168_89_182_20190626111305.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626111405.mp4
+execute.sh 2019-06-26 11:14:05 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626111405.mp4
+Failed to delete the file
+FTP wait
+execute.sh 2019-06-26 11:15:05 finish
+upload FTP 377_192_168_89_182_20190626111405.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626111505.mp4
+execute.sh 2019-06-26 11:15:05 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626111505.mp4
+Failed to delete the file
+FTP wait
+execute.sh 2019-06-26 11:16:05 finish
+upload FTP 377_192_168_89_182_20190626111505.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626111605.mp4
+execute.sh 2019-06-26 11:16:05 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626111605.mp4
+Failed to delete the file
+FTP wait
+execute.sh 2019-06-26 11:17:05 finish
+upload FTP 377_192_168_89_182_20190626111605.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626111705.mp4
+execute.sh 2019-06-26 11:17:05 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626111705.mp4
+Failed to delete the file
+FTP wait
+execute.sh 2019-06-26 11:18:06 finish
+upload FTP 377_192_168_89_182_20190626111705.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626111806.mp4
+execute.sh 2019-06-26 11:18:06 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626111806.mp4
+Failed to delete the file
+FTP wait
+execute.sh 2019-06-26 11:19:06 finish
+upload FTP 377_192_168_89_182_20190626111806.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626111906.mp4
+execute.sh 2019-06-26 11:19:06 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626111906.mp4
+Failed to delete the file
+FTP wait
+execute.sh 2019-06-26 11:20:06 finish
+upload FTP 377_192_168_89_182_20190626111906.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626112006.mp4
+execute.sh 2019-06-26 11:20:06 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626112006.mp4
+Failed to delete the file
+FTP wait
+execute.sh 2019-06-26 11:21:06 finish
+upload FTP 377_192_168_89_182_20190626112006.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626112106.mp4
+execute.sh 2019-06-26 11:21:06 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626112106.mp4
+Failed to delete the file
+FTP wait
+execute.sh 2019-06-26 11:22:06 finish
+upload FTP 377_192_168_89_182_20190626112106.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626112206.mp4
+execute.sh 2019-06-26 11:22:06 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626112206.mp4
+Failed to delete the file
+FTP wait
+recording_control 2019-06-26 11:22:27 Stopping RECORDING
+execute.sh 2019-06-26 11:23:06 finish
+recording_control 2019-06-26 12:56:29 Begin Cloud Recording
+ftp_server=103.107.100.4
+ftp_port=2212
+ftp_user=ihsmart_cam
+ftp_pass=p1n$20!8#
+ftp_dest_folder=./
+file_src_folder=/tools/recording/
+FTP started
+FTP wait
+execute 1521711340000
+execute ADD 192.168.89.182 60 10 10 377
+IpCamera start 192.168.89.182 60 10 10
+execute done
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626125630.mp4
+execute.sh 2019-06-26 12:56:31 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626125630.mp4
+execute.sh 2019-06-26 12:57:31 finish
+upload FTP 377_192_168_89_182_20190626125630.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626125731.mp4
+execute.sh 2019-06-26 12:57:31 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626125731.mp4
+Failed to delete the file
+FTP wait
+execute.sh 2019-06-26 12:58:31 finish
+upload FTP 377_192_168_89_182_20190626125731.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626125831.mp4
+execute.sh 2019-06-26 12:58:31 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626125831.mp4
+Failed to delete the file
+FTP wait
+recording_control 2019-06-26 12:58:47 Stopping RECORDING
+execute.sh 2019-06-26 12:59:31 finish
+recording_control 2019-06-26 16:28:21 Begin Cloud Recording
+ftp_server=103.107.100.4
+ftp_port=2212
+ftp_user=ihsmart_cam
+ftp_pass=p1n$20!8#
+ftp_dest_folder=./
+file_src_folder=/tools/recording/
+FTP started
+FTP wait
+execute 1521711340000
+execute ADD 192.168.89.182 60 10 10 377
+IpCamera start 192.168.89.182 60 10 10
+execute done
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626162822.mp4
+execute.sh 2019-06-26 16:28:22 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626162822.mp4
+execute.sh 2019-06-26 16:29:22 finish
+upload FTP 377_192_168_89_182_20190626162822.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626162922.mp4
+execute.sh 2019-06-26 16:29:22 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626162922.mp4
+Failed to delete the file
+FTP wait
+execute.sh 2019-06-26 16:30:22 finish
+upload FTP 377_192_168_89_182_20190626162922.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626163022.mp4
+execute.sh 2019-06-26 16:30:22 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626163022.mp4
+Failed to delete the file
+FTP wait
+execute.sh 2019-06-26 16:31:22 finish
+upload FTP 377_192_168_89_182_20190626163022.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626163122.mp4
+execute.sh 2019-06-26 16:31:22 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626163122.mp4
+Failed to delete the file
+FTP wait
+execute.sh 2019-06-26 16:32:22 finish
+upload FTP 377_192_168_89_182_20190626163122.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626163222.mp4
+execute.sh 2019-06-26 16:32:22 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626163222.mp4
+Failed to delete the file
+FTP wait
+execute.sh 2019-06-26 16:33:23 finish
+upload FTP 377_192_168_89_182_20190626163222.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626163323.mp4
+execute.sh 2019-06-26 16:33:23 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626163323.mp4
+Failed to delete the file
+FTP wait
+execute.sh 2019-06-26 16:34:23 finish
+upload FTP 377_192_168_89_182_20190626163323.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626163423.mp4
+execute.sh 2019-06-26 16:34:23 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626163423.mp4
+Failed to delete the file
+FTP wait
+execute.sh 2019-06-26 16:35:23 finish
+upload FTP 377_192_168_89_182_20190626163423.mp4
+IpCamera run 192.168.89.182 60 10 10 sh ./execute.sh 192.168.89.182 60 /tools/recording/377_192_168_89_182_20190626163523.mp4
+execute.sh 2019-06-26 16:35:23 timeout 60 ffmpeg -i rtsp://@192.168.89.182:554/onvif2 -acodec copy -vcodec copy .//tools/recording/377_192_168_89_182_20190626163523.mp4
+recording_control 2019-06-26 16:35:24 Stopping RECORDING
+execute.sh 2019-06-26 16:36:23 finish
